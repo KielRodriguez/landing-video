@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Landig Page With Video</title>
+    <link rel="stylesheet" href="public/css/style.css" type="text/css">
+  </head>
+  <body>
+    <section>
+      <div class="landing">
+        <video autoplay="true" loop="true" class="container-video" id="container-video" muted="true">
+          <source src="public/video/small.mp4" type="video/mp4">
+          <source src="public/video/small.ogg" type="video/ogg">
+          <source src="public/video/small.webm" type="video/webm">
+          Tu navegador no soporta video HTML5
+        </video>
+      </div>
+    <section>
+    <script type="text/javascript">
+      document.getElementById('container-video').playbackRate = 0.5
+    </script>
+  </body>
+</html>
